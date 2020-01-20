@@ -2,7 +2,10 @@
 Operating systems scheduling algorithms visualization.
 it is an OS scheduler using different scheduling algorithms
 ### Getting Started
-These instructions will get you a copy of the project up and running on your local machine for develoment.
+These instructions will get you a copy of the project up and running on your local machine for develoment.  
+pip install requirements.txt  
+pip install tkinter  
+python scheduler.py  
 
 ### Requirements
 What things you need to install ?
@@ -29,7 +32,8 @@ Library used for plots : matplotlib
 Startup window for selecting (Input file) and (Selecting an algorithm to draw its corresponding scheduling  
 The following output graphs is for inputfile at (testcases/SheetQuestion.txt)
 
-
+0 indicates that the cpu is free  
+-1 indicates that the context switching  
 ![Startup window for selecting (Input file) and (Selecting an algorithm to draw its corresponding scheduling](docs/front.png)
 ### 1. First come first served  
 ![Startup window for selecting (Input file) and (Selecting an algorithm to draw its corresponding scheduling](docs/FCFS.png)
