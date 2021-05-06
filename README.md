@@ -45,4 +45,4 @@ The following output graphs is for inputfile at (testcases/SheetQuestion.txt)
 ![Startup window for selecting (Input file) and (Selecting an algorithm to draw its corresponding scheduling](docs/SRTN.png)
 
 ### Authors
-- [@MOKHTAR](https://github.com/mohamed-mokhtar)
+- [@MOKHTAR](https://github.com/rrrokhtar)
