@@ -105,7 +105,7 @@ def update_graph():
     x = X_time
     y = Y_prun
     plot.step(x, y, color="red", linestyle="-")
-    plot.grid(b=True, which='major', color='#AAAAAA', linestyle='-')
+    plot.grid(which='major', color='#AAAAAA', linestyle='-')
     plot.set_yticks(y)
     plot.set_xticks(x)
     canvas = FigureCanvasTkAgg(figure, root)
@@ -451,7 +451,7 @@ x = X_time
 y = Y_prun
 
 plot.step(x, y, color="red", marker=".", linestyle="")
-plot.grid(b=True, which='major', color='#AAAAAA', linestyle='-')
+plot.grid(which='major', color='#AAAAAA', linestyle='-')
 plot.set_yticks(y)
 plot.set_xticks(x)
 
